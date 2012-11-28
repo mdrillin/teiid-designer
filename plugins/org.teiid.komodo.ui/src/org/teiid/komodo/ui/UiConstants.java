@@ -61,6 +61,7 @@ public interface UiConstants {
         String NEW_FOLDER_WIZARD = "org.eclipse.ui.wizards.new.folder"; //$NON-NLS-1$
 
         // Views
+        String REPOS_VIEW = "views.reposView"; //$NON-NLS-1$
         String DATATYPE_HIERARCHY_VIEW = "views.datatypeHierarchyView"; //$NON-NLS-1$
         String DESCRIPTION_VIEW = "views.descriptionView"; //$NON-NLS-1$
         String ERROR_LOG_VIEW = "org.eclipse.pde.runtime.LogView"; //"views.logView"; //$NON-NLS-1$

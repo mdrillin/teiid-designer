@@ -19,5 +19,22 @@
             id="komodoPerspective">
       </perspective>
    </extension>
+   
+<!-- Komodo view category -->
+   <extension
+         point="org.eclipse.ui.views">
+      <category
+            name="%komodoViewCategory"
+            id="org.teiid.komodo.ui">
+      </category>
+<!-- Modeshape Repos view -->
+      <view
+            name="%reposView.name"
+            icon="icons/full/cview16/metamodels.gif"
+            category="org.teiid.komodo.ui"
+            class="org.teiid.komodo.ui.views.ReposView"
+            id="views.reposView">
+      </view>
+   </extension>
 
 </plugin>

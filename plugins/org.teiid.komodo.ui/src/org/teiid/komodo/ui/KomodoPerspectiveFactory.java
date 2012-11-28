@@ -80,7 +80,8 @@ implements Extensions, IPerspectiveFactory, KomodoPerspectiveContributorExtensio
                                                          editorArea);
         //addView(Explorer.VIEW, topLeftFolder, theLayout);
         //addView(OUTLINE_VIEW, topLeftFolder, theLayout);
-        addView(ProjectExplorer.VIEW_ID, topLeftFolder, theLayout);
+        //addView(ProjectExplorer.VIEW_ID, topLeftFolder, theLayout);
+        addView(REPOS_VIEW,topLeftFolder,theLayout);
         
         topLeftFolder.addPlaceholder(DATATYPE_HIERARCHY_VIEW);
 
